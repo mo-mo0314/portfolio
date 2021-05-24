@@ -1,0 +1,228 @@
+@charset "shift-jis";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body{
+	margin:auto;
+	font-family:  "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;
+}
+
+h1{
+	font-size:200%;
+	padding-top:0;
+	margin-bottom: 0;
+	display: inline-block;
+	border-bottom:solid;
+	border-bottom-width: 2px;
+	color: #333;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: .05em;
+	margin-bottom: 0;
+}
+
+video{
+	height:60vh;
+}
+
+.video{
+	text-align: center;
+	margin-top: 1em;
+}
+
+
+h4{
+	margin: 0em 0em 0em 0em;
+	
+}
+
+h2{
+	margin-top:2em;
+	margin-bottom:1ex;
+	display: inline-block;
+	border-bottom:solid;
+	border-bottom-width: 2px;
+	color: #333;
+}
+
+h3{
+	margin:0;
+	display: inline-block;
+	border-bottom:dotted;
+	border-bottom-width: 2px;
+	color: #333;
+}
+
+header{
+	position: relative;
+	height: 7vh;
+	margin-bottom: 5px;
+}
+
+.headerimg{
+	width:100%;
+	z-index:1;
+    position: fixed;
+	top: 0;
+}
+
+header ul{
+	z-index:10;
+	margin-top: 0ex;
+	position: fixed;
+	height: 7vh;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+header ul li{
+	display:inline-block;
+	width:120px;
+	line-height:3em;
+	min-width:9ex;
+	text-align:center;
+	white-space: nowrap
+}
+
+header ul li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+div.headermenu{
+	float: right;
+	text-align:end;
+	margin-right: 7em;
+}
+
+header ul li a{
+	display: block; 
+	color:black;
+}
+header ul li a:hover{
+	opacity: 0.7;
+}
+
+.top_img{
+	text-align:center;
+	/*margin-top:1em;*/
+}
+
+.top_img img{
+	width:60vw;
+}
+
+.top_img_h{
+	text-align:center;
+	margin-top:1em;
+}
+
+.top_img_h img{
+height:65vh;
+}
+
+.text{
+	margin-top:25ex;
+	margin-bottom:35ex;
+	text-align:center;
+	margin-right:10em;
+}
+
+.barometer_img img{
+	width:60vw;
+}
+
+.barometer_img{
+	text-align:center;
+	margin-top:3em;
+}
+
+.caption{
+	text-align: center;
+}
+
+.bx-wrapper{
+	margin: 0 auto;
+	border: none;
+    box-shadow: none;
+	background-color: transparent;
+}
+
+
+.bx-wrapper img {
+    display: block;
+    margin: 0px auto;
+}
+
+.fleximg {
+    padding:  10px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+	flex-wrap: wrap;
+	justify-content:center;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.flex_item {
+    margin:  10px;              /* 外側の余白 */
+    align-self: stretch;        /* 縦の位置指定 */
+	overflow:		hidden;
+	position:		relative;
+}
+
+.flex_item img{
+	vertical-align: top;
+	width: 30vw;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+	margin-top: 100px;
+}
+
+.flexbox_img{
+	width: 50%;
+	margin-right: 50px;
+}
+
+.flexbox_text {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border-style: none;
+}
+
+
+.mykome_flexbox{
+	display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+	margin-top: 100px;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.mykome_flexbox_img{
+	width: 20%;
+	margin-right: 20px;
+}
+
+
+.caption{
+	margin-bottom: 2em;
+}
+
+.otherimg{
+	text-align: center;
+}
+
+.otherimg img{
+	height:30vh;
+}

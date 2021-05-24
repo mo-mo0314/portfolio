@@ -1,0 +1,167 @@
+@charset "shift-jis";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body{
+	margin:auto;
+	font-family:  "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",sans-serif;
+}
+
+h4{
+	margin: 0.5em 0em 0em 0em;
+}
+h2{
+	margin-top:2em;
+	margin-bottom:1ex;
+}
+header{
+	position: relative;
+	height: 70vh;
+	margin-bottom: 3ex;
+}
+
+.headerimg{
+	width:100%;
+	z-index:1;
+    position: fixed;
+	top: 0;
+}
+
+header ul{
+	height: 7vh;
+	z-index:10;
+	margin-top: 0ex;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+header ul li{
+	display:inline-block;
+	width:120px;
+	line-height:3em;
+	min-width:9ex;
+	text-align:center;
+	white-space: nowrap
+}
+
+header ul li a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+div.headermenu{
+	float: right;
+	text-align:end;
+	margin-right: 7em;
+}
+
+header ul li a{
+	display: block; 
+	color:black;
+}
+header ul li a:hover{
+	opacity: 0.7;
+}
+
+div.contents{
+	background-color:white;
+	z-index:2;
+    position: sticky;
+    top: 10em;
+}
+
+.works {
+    /*background-color: #eee; */
+    padding:  10px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+	flex-wrap: wrap;
+	justify-content:center;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.works-item {
+    margin:  10px;              /* 外側の余白 */
+    align-self: stretch;        /* 縦の位置指定 */
+	overflow:		hidden;
+	position:		relative;
+}
+
+.works-item img{
+	vertical-align: top;
+}
+
+.works-item .caption {
+	font-size:130%;
+	color:#fff;
+	padding-top:110px;
+	padding-bottom:0px;
+	text-align:center
+}
+.works-item .mask {
+	width:100%;
+	height:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	opacity:0;	/* マスクを表示しない */
+	background-color:rgba(0,0,0,0.4);
+	-webkit-transition:all 0.6s ease;
+	transition:all 0.6s ease;
+}
+.works-item:hover .mask {
+	opacity:1;	/* マスクを表示する */
+	padding-bottom:10px;	/* 右にずらす */
+}
+
+.bx-wrapper{
+	margin: 0 auto;
+}
+
+.bx-wrapper:hover{
+	opacity: 0.8;
+}
+
+/*
+.inner {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+*/
+
+.title {
+    text-align: center;
+    letter-spacing: .05em;
+    color: #333;
+	margin-bottom: 0;
+	padding-top: 50px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+	margin-top: 10px;
+}
+
+.profile-img{
+	width: 20%;
+	margin-right: 30px;
+	margin-top: 0;
+}
+
+.profile-body {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border-style: none;
+}
+
+.ABOUT{
+	padding-bottom: 5em;
+}
